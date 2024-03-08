@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body
+{
+    height:100%;
+    width:100%;
+}
+
+#NavBar
+{
+    display:flex;/*the nuts*/
+    align-items: center;
+
+    position: fixed; /*how is it psoitioned*/ /*the person*/
+    /*where is it positioned*/
+
+    /*how far is it from the top left corner of the parent*/
+    left: 0;
+    top:0;
+
+    height:70px;
+    width:100%;
+
+    /*what COLOR should it be*/
+    background-color: rgb(35, 6, 63);
+    color:rgb(255, 252, 81); /*font coor*/
+    font-family: "PT Sans", sans-serif;
+    font-size: x-large;
+
+
+}
+
+#GameBoard
+{
+    display: grid;
+    position:fixed;
+    top:50%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.GridBlock
+{
+    height:50px;
+    width:50px;
+    background-color: gray;
+    border:white 1px solid;
+}
+/*
+
+where is it (pos)
+
+how bis it (size)
+what color (color)
+
+#id 
+.class 
+html */
